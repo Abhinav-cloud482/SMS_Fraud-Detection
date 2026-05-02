@@ -2,13 +2,12 @@
 A machine learning-based SMS spam detection system using TF-IDF and multiple classifiers (Naïve Bayes, Logistic Regression, and SVM) for accurate text classification.
 
 
-# 📩 SMS Spam Detection using Machine Learning
+## SMS Spam Detection using Machine Learning
 
 A complete machine learning pipeline to detect SMS spam messages using Natural Language Processing (NLP) techniques and multiple classification algorithms including Naïve Bayes, Logistic Regression, and Support Vector Machine (SVM).
 
----
 
-## 🚀 Features
+## Features
 
 * Preprocessing of SMS text data
 * TF-IDF vectorization for feature extraction
@@ -26,9 +25,8 @@ A complete machine learning pipeline to detect SMS spam messages using Natural L
 * Cross-validation support
 * Custom spam prediction function
 
----
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 ├── sms fraud.py        # Basic training and prediction script
@@ -39,23 +37,22 @@ A complete machine learning pipeline to detect SMS spam messages using Natural L
 
 ---
 
-## 📊 Dataset
+## Dataset
 
-The dataset contains labeled SMS messages:
+The dataset contains labeled SMS messages :-
 
 * **ham** → Legitimate messages
 * **spam** → Fraudulent or promotional messages
 
-### Example:
+### Example :-
 
 | Label | Message                          |
 | ----- | -------------------------------- |
 | ham   | Go until jurong point...         |
 | spam  | WINNER!! You have won a prize... |
 
----
 
-## 🧠 Machine Learning Pipeline
+## Machine Learning Pipeline
 
 ### 1. Data Preprocessing
 
@@ -79,20 +76,18 @@ The dataset contains labeled SMS messages:
 * Logistic Regression
 * Support Vector Machine (Linear Kernel)
 
----
 
-## 📈 Model Performance
+## Model Performance
 
-Typical outputs include:
+Typical outputs include :-
 
 * Accuracy Score
 * Confusion Matrix
 * Precision, Recall, F1-score
 * ROC-AUC Score (where applicable)
 
----
 
-## 🔍 Example Output
+## Example Output
 
 ```
 Naïve Bayes Accuracy: 0.98
@@ -104,7 +99,7 @@ Prediction: Spam
 
 ---
 
-## 🧪 Example Prediction
+## Example Prediction
 
 ```python
 example_message = "Congratulations! You've won a free lottery. Click here to claim."
@@ -119,7 +114,7 @@ Spam
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ### 1. Clone the repository
 
@@ -134,11 +129,10 @@ cd sms-spam-detection
 pip install pandas numpy scikit-learn nltk
 ```
 
----
 
-## ▶️ Usage
+## Usage
 
-### Run basic model:
+### Run basic model :-
 
 ```bash
 python "sms fraud.py"
@@ -150,9 +144,8 @@ python "sms fraud.py"
 python testing.py
 ```
 
----
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * Python
 * Pandas
@@ -160,30 +153,26 @@ python testing.py
 * Scikit-learn
 * NLTK
 
----
 
-## 📌 Future Improvements
+## Future Improvements
 
 * Add deep learning models (LSTM, BERT)
 * Deploy as a web application (Flask/Streamlit)
 * Real-time SMS filtering API
 * Improve preprocessing with stemming/lemmatization
 
----
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Feel free to fork this repository and submit a pull request.
 
----
 
-## 📜 License
+## License
 
 This project is open-source and available under the MIT License.
 
----
 
-## 👨‍💻 Author
+## Author
 
 **Your Name**
 GitHub: https://github.com/your-username
