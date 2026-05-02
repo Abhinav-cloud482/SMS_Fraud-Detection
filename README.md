@@ -174,5 +174,6 @@ This project is open-source and available under the MIT License.
 
 ## Author
 
-**Your Name**
-GitHub: https://github.com/your-username
+Abhinav Dixit
+
+Python Developer | Data & ML Enthusiast
